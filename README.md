@@ -7,7 +7,6 @@ Final Project for CS 445 (2020)
 - Better Outlier rejection 
 - Imporved flow tracking - minimized dynamic object keypoint selection 
 - Scene -based masking
-- Semantic segmentation maskign (remaining)
 
 # Setup and excecution :
 1. **DatasetReaderKITTI** is responsible for loading frames from [KITTI Visual Odometry Dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)

@@ -11,8 +11,9 @@ ipython notebook
 - Download odometry data (grey) synced + rectified from [here](http://www.cvlibs.net/datasets/kitti/eval_odometry.php).
 - Copy the ground truth poses from [here] (http://www.cvlibs.net/download.php?file=data_odometry_poses.zip)
 
+- Setup the directory structure for SuperPoint + RANSAC as follows:
 ```
-`-- KITTI_data (raw data, odometry sequences, GT poses)
+`-- KITTI_data (data_odometry_gray, data_odometery_pose, data_odometery_calib)
 |   |-- data_odometry_gray
 |   |   |-- 00
 |   |   |   |-- image_00/

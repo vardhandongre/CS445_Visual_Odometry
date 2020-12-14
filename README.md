@@ -3,7 +3,7 @@ Final Project for CS 445 (2020)
 
 ## SIFT_plus_RANSAC
 @ Details of Implementation:
-- Modfied for Own datset and SIFT Tracking
+- Modfied for Own dataset and SIFT Tracking
 - Better Outlier rejection 
 - Imporved flow tracking - minimized dynamic object keypoint selection 
 - Scene -based masking

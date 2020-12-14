@@ -20,7 +20,7 @@ ipython notebook
 - Copy the ground truth poses from [here] (http://www.cvlibs.net/download.php?file=data_odometry_poses.zip)
 
 ```
-`-- KITTI_data (raw data, odometry sequences, GT poses)
+`-- KITTI_data (data_odometry_gray, data_odometery_pose, data_odometery_calib)
 |   |-- data_odometry_gray
 |   |   |-- 00
 |   |   |   |-- image_00/

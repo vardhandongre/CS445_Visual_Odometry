@@ -7,5 +7,5 @@
 - Semantic segmentation maskign (remaining)
 
 @ Setup :
-1. KITTI Dataset : Steup as directory 
+1. **DatasetReaderKITTI** is responsible for loading frames from [KITTI Visual Odometry Dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)
 2. 

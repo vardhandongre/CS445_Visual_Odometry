@@ -8,7 +8,7 @@ Final Project for CS 445 (2020)
 - Imporved flow tracking - minimized dynamic object keypoint selection 
 - Scene -based masking
 
-# Setup and excecution :
+### Setup and excecution :
 1. **DatasetReaderKITTI** is responsible for loading frames from [KITTI Visual Odometry Dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)
 2. Run keypoint detection using SIFT and then track these keypoints with **FeatureTracker** that uses OpenCV Sparse optical flow
 3. Load calib.txt and poses.txt for the corresponding sequecne from [KITTI Visual Odometry Dataset], and Update Trajectory path while execution.
@@ -20,6 +20,12 @@ Final Project for CS 445 (2020)
 2. Setup data_directory to folder with video_frames
 
 ## SuperPoint_plus_RANSAC
+@ Details of Implementation:
+- Modfied for Own dataset and Superpoint Tracking
+- Coupled with RANSAC for Outlier rejection 
+- flow tracking - minimized dynamic object keypoint selection 
+
+### Setup and excecution 
 ipython notebook:
 This is the MagicLeap's implementation of SuperPoint
 1. Load the pretrained weights for SuperPoint on MS-COCO [here](https://github.com/magicleap/SuperPointPretrainedNetwork/blob/master/superpoint_v1.pth)

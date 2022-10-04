@@ -1,5 +1,5 @@
-# CS445_Visual_Odometry
-Final Project for CS 445 (2020)
+# Visual Odometry
+
 
 ## SIFT_plus_RANSAC
 @ Details of Implementation:
